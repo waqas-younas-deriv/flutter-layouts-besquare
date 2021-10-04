@@ -49,7 +49,7 @@ class ContainerExample extends StatelessWidget {
           width: 100,
           height: 100,
           decoration: BoxDecoration(
-            color: Colors.green,
+            color: Colors.blue,
           ),
         ),
       ),
@@ -65,13 +65,15 @@ class CenterExample extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: SafeArea(
-        child: Container(
-          width: 100,
-          height: 100,
-          decoration: BoxDecoration(
-            color: Colors.green,
+        child: Center(
+          child: Container(
+            width: 100,
+            height: 100,
+            decoration: BoxDecoration(
+              color: Colors.blue,
+            ),
+            child: Text('Center Example'),
           ),
-          child: Text('Center Example'),
         ),
       ),
     );

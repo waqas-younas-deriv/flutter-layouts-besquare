@@ -27,7 +27,7 @@ class BlueBox extends StatelessWidget {
       width: 50,
       height: 50,
       decoration: BoxDecoration(
-        color: Colors.red,
+        color: Colors.blue,
         border: Border.all(),
       ),
     );

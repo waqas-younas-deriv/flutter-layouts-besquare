@@ -18,7 +18,7 @@ class GridViewExample extends StatelessWidget {
           50,
           (index) => Container(
                 padding: const EdgeInsets.all(8),
-                child: const Text("He'd have you all unravel at the"),
+                child: const Text("Welcome to deriv be-square"),
                 color: Colors.teal[100],
               )),
     )));

@@ -8,13 +8,14 @@ class RowExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+        appBar: AppBar(),
         body: SafeArea(
-            child: Row(children: [
-      BlueBox(),
-      BlueBox(),
-      BlueBox(),
-    ])));
+          child: Row(children: [
+            BlueBox(),
+            BlueBox(),
+            BlueBox(),
+          ]),
+        ));
   }
 }
 
@@ -25,7 +26,7 @@ class BlueBox extends StatelessWidget {
       width: 50,
       height: 50,
       decoration: BoxDecoration(
-        color: Colors.red,
+        color: Colors.blue,
         border: Border.all(),
       ),
     );
